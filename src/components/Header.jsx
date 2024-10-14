@@ -5,7 +5,7 @@ const Header = ({ photos }) => {
     <div >
             <header className="flex justify-between items-center p-4">
                 <h1 className="">Site Name</h1>
-                <div className="flex space-x-4">
+                <div className="flex space-x-8">
                   <button className="bg-transparent text-black focus:outline-none">Page</button>
                   <button className="bg-transparent text-black focus:outline-none">Page</button>
                   <button className="bg-transparent text-black focus:outline-none">Page</button>

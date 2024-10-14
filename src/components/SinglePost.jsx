@@ -5,7 +5,7 @@ import Footer from './Footer';
 import Header from './Header';
 
 const SinglePost = () => {
-  // Extract the 'id' from the URL parameters (e.g., /post/1)
+  // Extract the 'id' for the url routing
   const { id } = useParams();
 
   const [postData, setPostData] = useState(null);
